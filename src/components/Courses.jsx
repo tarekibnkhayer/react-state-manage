@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
+import Course from './Course';
 const Courses = ({courses}) => {
     return (
-        <div>
-            {courses.length}
+        <div className='w-3/4'>
+            {
+                courses.map(course =><Course course={course} key={course.id}></Course> )
+            }
         </div>
     );
 };

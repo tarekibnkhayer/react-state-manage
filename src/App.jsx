@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/Header'
 import { useState } from 'react'
 import Courses from './components/Courses';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
   return (
     <>
     <header><Header></Header></header>
-    <main>
+    <main className='flex mx-16'>
       <Courses courses={courses}></Courses>
+      <Cart></Cart>
     </main>
     </>
   )
