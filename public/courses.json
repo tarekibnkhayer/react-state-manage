@@ -21,7 +21,7 @@
       "img": "https://i.ibb.co/Sty2KK5/Rectangle-2-4.png",
       "description": "Explore C++ programming for Data Structures and Algorithms. Covers C++ syntax and its application in DSA.",
       "price": 119,
-      "credit_hour": 3
+      "credit_hour": 10
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "img": "https://i.ibb.co/fSw1yZF/Rectangle-3.png",
       "description": "Build a strong foundation in Data Structures and Algorithms. Learn common data structures and algorithms.",
       "price": 79,
-      "credit_hour": 2
+      "credit_hour": 7
     },
     {
       "id": 5,

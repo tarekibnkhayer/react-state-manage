@@ -15,7 +15,7 @@ const Course = ({course, handleAddToCart}) => {
                 <p className='text-base font-medium text-[#1C1B1B99]'>Credit: {credit_hour}hr</p>
             </div>
            </div>
-           <button className='bg-[#2F80ED] border rounded-lg w-full text-white py-2 px-[112px] text-center' onClick={() => handleAddToCart(course)}>Select</button>
+           <button className='bg-[#2F80ED] border rounded-lg w-full text-white py-2 px-[112px] text-center' onClick={() => handleAddToCart(course, credit_hour)}>Select</button>
            <ToastContainer />
         </div>
     );
