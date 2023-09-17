@@ -6,9 +6,9 @@ const Cart = ({courseName}) => {
             <hr />
             <h3 className="text-xl font-bold text-[#1C1B1B]">Course Name:</h3>
             <div>
-                {
-                    courseName.map((course,idx) => <li key={idx}>{course}</li>)
-                }
+               {
+                courseName.map(course => <li key={course.id}>{course.course_name}</li>)
+               }
             </div>
             <hr />
             <p className="text-[#1C1B1BCC] font-medium">Total Credit Hour: </p>

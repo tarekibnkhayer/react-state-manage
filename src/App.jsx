@@ -15,9 +15,15 @@ function App() {
     .then(res => res.json())
     .then(data => setCourses(data));
   },[]);
-  const handleAddToCart = (course_name, credit_hour) =>{
-    console.log(course_name, credit_hour);
-    setCourseName([...courseName, course_name]);
+  const handleAddToCart = (course) =>{
+    const isExist = courseName.find(item => item == course);
+    if (isExist){
+      return alert("you can't add same course twice");
+    }
+    else{
+      return setCourseName([...courseName, course]);
+    }
+
   }
   return (
     <>
