@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_name": "Introduction To C Programming",
+      "img": "https://i.ibb.co/Gp0zJ4V/Rectangle-2-2.png",
+      "description": "Learn the fundamentals of C programming language. This course covers basic syntax, data types, and control structures.",
+      "price": 99,
+      "credit_hour": 3
+    },
+    {
+      "id": 2,
+      "course_name": "Introduction to Algorithm",
+      "img": "https://i.ibb.co/L5SMb6v/Rectangle-2-3.png",
+      "description": "Master the principles of algorithms and problem-solving. Explore algorithm analysis, design techniques, and optimization.",
+      "price": 129,
+      "credit_hour": 4
+    },
+    {
+      "id": 3,
+      "course_name": "Introduction to C++ for DSA",
+      "img": "https://i.ibb.co/Sty2KK5/Rectangle-2-4.png",
+      "description": "Explore C++ programming for Data Structures and Algorithms. Covers C++ syntax and its application in DSA.",
+      "price": 119,
+      "credit_hour": 3
+    },
+    {
+      "id": 4,
+      "course_name": "Basic DSA",
+      "img": "https://i.ibb.co/fSw1yZF/Rectangle-3.png",
+      "description": "Build a strong foundation in Data Structures and Algorithms. Learn common data structures and algorithms.",
+      "price": 79,
+      "credit_hour": 2
+    },
+    {
+      "id": 5,
+      "course_name": "Introduction to OOP Python",
+      "img": "https://i.ibb.co/p6TntvS/Rectangle-2.png",
+      "description": "Learn Object-Oriented Programming with Python. Explore classes, inheritance, and polymorphism in Python.",
+      "price": 109,
+      "credit_hour": 3
+    },
+    {
+      "id": 6,
+      "course_name": "Software Engineering",
+      "img": "https://i.ibb.co/F6RfkL4/Rectangle-2-5.png",
+      "description": "Gain insights into software development methodologies and best practices. Covers software lifecycle and project management.",
+      "price": 149,
+      "credit_hour": 4
+    },
+    {
+      "id": 7,
+      "course_name": "AWS",
+      "img": "https://i.ibb.co/FDgw26L/Rectangle-3-1.png",
+      "description": "Become proficient in Amazon Web Services (AWS) cloud computing. Covers AWS services and deployment.",
+      "price": 169,
+      "credit_hour": 4
+    },
+    {
+      "id": 8,
+      "course_name": "Database",
+      "img": "https://i.ibb.co/yqScFfb/Rectangle-2-1.png",
+      "description": "Learn the fundamentals of database management and design. Explore SQL, NoSQL, and database modeling.",
+      "price": 119,
+      "credit_hour": 3
+    },
+    {
+      "id": 9,
+      "course_name": "Problem Solving",
+      "img": "https://i.ibb.co/p2LJkdn/Rectangle-2-6.png",
+      "description": "Enhance your problem-solving skills with real-world scenarios. Apply critical thinking to solve complex problems.",
+      "price": 89,
+      "credit_hour": 2
+    }
+  ]
+  
