@@ -1,8 +1,12 @@
-# React + Vite
+# MY React Project(Assignment-7):
+***
+## MY Project Features:
++ #### You can add course in your cart up to 20hour.
++ #### If you want to add more than 20 hour credit course you will get a toast message.
++ #### Also you can show how many hour is remaining from your 20 hour in Credit Hour Remaining section.
+***
+### How I Manage The State in My Project:
+#### In this project , I have 4 state. React provides the useState hook, which allows me to add state to functional components. I can use it to manage component-specific state.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
