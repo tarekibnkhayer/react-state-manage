@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaBookReader } from 'react-icons/fa';
-const Course = ({course}) => {
+const Course = ({course, handleAddToCart}) => {
     const{course_name, img, description, price, credit_hour} = course;
     return (
         <div className='border rounded-xl  p-4 space-y-4 '>
@@ -14,12 +14,13 @@ const Course = ({course}) => {
                 <p className='text-base font-medium text-[#1C1B1B99]'>Credit: {credit_hour}hr</p>
             </div>
            </div>
-           <button className='bg-[#2F80ED] border rounded-lg w-full text-white py-2 px-[112px] text-center'>Select</button>
+           <button className='bg-[#2F80ED] border rounded-lg w-full text-white py-2 px-[112px] text-center' onClick={() => handleAddToCart(course_name, credit_hour)}>Select</button>
         </div>
     );
 };
 
 export default Course;
 Course.propTypes = {
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    handleAddToCart: PropTypes.func.isRequired
 }
