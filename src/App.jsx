@@ -13,6 +13,7 @@ function App() {
   const [courses, setCourses] = useState([]);
   const [courseName,setCourseName ] = useState([]);
   const [count, setCount] = useState(0);
+  const [remaining, setRemaining] = useState(20);
   useEffect(()=>{
     fetch('courses.json')
     .then(res => res.json())
@@ -28,6 +29,7 @@ function App() {
        if(newCount <= 20){
         setCourseName([...courseName, course]);
         setCount(newCount);
+        setRemaining(remaining - time);
        }
        else{
         return toast("you can't add credit more than 20 hr")
@@ -40,7 +42,7 @@ function App() {
     <header><Header></Header></header>
     <main className='flex mx-16 mt-8 gap-6'>
       <Courses courses={courses} handleAddToCart={handleAddToCart}></Courses>
-      <Cart courseName={courseName} count={count}></Cart>
+      <Cart courseName={courseName} count={count} remaining={remaining}></Cart>
     </main>
     </>
   )
