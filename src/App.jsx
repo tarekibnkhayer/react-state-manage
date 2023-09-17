@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <header><Header></Header></header>
-    <main className='flex mx-16'>
+    <main className='flex mx-16 mt-8 gap-6'>
       <Courses courses={courses}></Courses>
       <Cart></Cart>
     </main>
