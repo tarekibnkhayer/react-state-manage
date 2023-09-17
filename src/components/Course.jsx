@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaBookReader } from 'react-icons/fa';
+import { ToastContainer } from 'react-toastify';
 const Course = ({course, handleAddToCart}) => {
     const{course_name, img, description, price, credit_hour} = course;
     return (
@@ -15,6 +16,7 @@ const Course = ({course, handleAddToCart}) => {
             </div>
            </div>
            <button className='bg-[#2F80ED] border rounded-lg w-full text-white py-2 px-[112px] text-center' onClick={() => handleAddToCart(course)}>Select</button>
+           <ToastContainer />
         </div>
     );
 };

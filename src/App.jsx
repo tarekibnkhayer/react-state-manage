@@ -5,6 +5,8 @@ import Header from './components/Header'
 import { useState } from 'react'
 import Courses from './components/Courses';
 import Cart from './components/Cart';
+import {  toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -16,9 +18,10 @@ function App() {
     .then(data => setCourses(data));
   },[]);
   const handleAddToCart = (course) =>{
+   
     const isExist = courseName.find(item => item == course);
     if (isExist){
-      return alert("you can't add same course twice");
+      return toast("You can't added same course twice");
     }
     else{
       return setCourseName([...courseName, course]);
